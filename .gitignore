@@ -1,0 +1,73 @@
+# =============================================================================
+#  Unity 工程标准 .gitignore
+#  注意：Unity 不会自动为 git 生成忽略规则，根目录那个 ignore.conf 是
+#        Unity Version Control (Plastic SCM) 用的，git 完全不读它。
+# =============================================================================
+
+# ---------------------- Unity 自动生成的目录（必须忽略） ----------------------
+# 这些目录 Unity 会自己重建，全部是派生产物。它们体积可达数 GB，
+# 且里面含超过 GitHub 100MB 上限的文件，一旦提交就无法再推送。
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Bb]in/
+
+# ---------------------- Unity 特定生成物 ----------------------
+sysinfo.txt
+crashlytics-build.properties
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+/[Aa]ssets/[Aa]ssetStoreTools/
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/[Pp]lugins/[Pp]lasticSCM*
+/[Aa]ssets/**/AssetStoreTools*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---------------------- Visual Studio / Rider / VS Code ----------------------
+/.vs/
+/.idea/
+/.localhistory/
+/.history/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.vspscc
+*.vssscc
+*.DotSettings.user
+*.sln.iml
+
+# ---------------------- 构建产物 / 依赖缓存 ----------------------
+[Dd]ebug/
+[Rr]elease/
+[Ee]xported[Oo]bj/
+node_modules/
+*.dll.mdb
+*.exe.mdb
+
+# ---------------------- 操作系统 / 压缩包 ----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# ---------------------- 备份文件 ----------------------
+*.bak
+*.orig
+*.rej
+git-backup/

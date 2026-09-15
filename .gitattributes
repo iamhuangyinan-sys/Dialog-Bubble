@@ -1,0 +1,53 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# ---------------------------------------------------------------------------
+#  Unity 工程：显式声明二进制资源类型
+#  避免 git 误判成文本而对换行符做转换，从而损坏资源文件
+# ---------------------------------------------------------------------------
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary
+*.tga  binary
+*.psd  binary
+*.tif  binary
+*.tiff binary
+*.exr  binary
+*.hdr  binary
+*.fbx  binary
+*.obj  binary
+*.blend binary
+*.3ds  binary
+*.dae  binary
+*.max  binary
+*.ma   binary
+*.mb   binary
+*.ttf  binary
+*.ttc  binary
+*.TTC  binary
+*.otf  binary
+*.woff binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.aif  binary
+*.aiff binary
+*.flac binary
+*.m4a  binary
+*.mp4  binary
+*.mov  binary
+*.webm binary
+*.unitypackage binary
+*.cubemap binary
+*.dll  binary
+*.so   binary
+*.dylib binary
+*.a    binary
+*.lib  binary
+*.bundle binary
+*.apk  binary
+*.jar  binary
+*.aar  binary
+
